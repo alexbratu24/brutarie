@@ -334,7 +334,7 @@ public class RegularUserForm extends javax.swing.JFrame {
         if (client != null && orderDate != null && orderDate.after(today)) {
             _orderController = new OrderController(client,orderDate);
             startOrder();
-
+ 
         } else {
             // mesaj nu introduceti o data trecuta
             // message , completeaza clientul si data
